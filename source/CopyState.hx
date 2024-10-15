@@ -1,6 +1,7 @@
 package;
 
 #if mobile
+import flixel.FlxSprite;
 import lime.utils.Assets as LimeAssets;
 import openfl.utils.Assets as OpenFLAssets;
 import flixel.addons.util.FlxAsyncLoop;
