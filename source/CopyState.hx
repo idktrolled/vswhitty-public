@@ -1,7 +1,13 @@
 package;
 
 #if mobile
+#if sys
+import sys.*;
+import sys.io.*;
+#end
+import flixel.FlxG;
 import flixel.FlxSprite;
+import flixel.text.FlxText;
 import lime.utils.Assets as LimeAssets;
 import openfl.utils.Assets as OpenFLAssets;
 import flixel.addons.util.FlxAsyncLoop;
