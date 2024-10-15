@@ -1,5 +1,9 @@
 package;
 
+#if sys
+import sys.*;
+import sys.io.*;
+#end
 #if android
 import android.content.Context;
 import android.os.Environment;
