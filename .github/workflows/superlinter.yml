@@ -9,7 +9,7 @@ jobs:
         with:
           haxe-version: 4.3.7
       - run: |
-          haxelib install lime
+          haxelib git lime https://github.com/kittycathy233/lime
           haxelib install openfl
           haxelib install flixel 4.11.0
           haxelib install flixel-tools
@@ -22,7 +22,7 @@ jobs:
           haxelib git linc_luajit https://github.com/superpowers04/linc_luajit
           haxelib git polymod https://github.com/swordcube/scriptless-polymod
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git extension-androidtools https://github.com/idktrolled/extension-androidtools
+          haxelib git extension-androidtools https://github.com/LimeExtensions/extension-androidtools
       #haxelib install hxcpp-debug-server
       - name: android run
         run: |
