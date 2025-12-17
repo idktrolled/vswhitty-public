@@ -1,5 +1,5 @@
 import Paths;
-
+#if !macro
  #if android
  import android.content.Context as AndroidContext;
  import android.widget.Toast as AndroidToast;
@@ -10,4 +10,5 @@ import Paths;
  import android.os.Build.VERSION as AndroidVersion;
  import android.os.Build.VERSION_CODES as AndroidVersionCode;
  import android.os.BatteryManager as AndroidBatteryManager;
+ #end
  #end
