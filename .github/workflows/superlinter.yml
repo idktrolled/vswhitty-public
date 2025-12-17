@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.6
+          haxe-version: 4.3.7
       - run: |
           haxelib install lime
           haxelib install openfl
