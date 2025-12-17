@@ -1,7 +1,7 @@
 package;
 
 #if android
-import android.Tools;
+import extension.androidtools.Tools;
 #end
 import lime.utils.Assets;
 
