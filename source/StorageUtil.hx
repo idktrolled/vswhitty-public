@@ -4,14 +4,6 @@ package;
 import sys.*;
 import sys.io.*;
 #end
-#if android
-import extension.androidtools.content.Context;
-import extension.androidtools.os.Environment;
-import extension.androidtools.Permissions;
-import extension.androidtools.Settings;
-import extension.androidtools.os.Build.VERSION;
-import extension.androidtools.os.Build.VERSION_CODES;
-#end
 import lime.system.System as LimeSystem;
 import haxe.io.Path;
 import haxe.Exception;
