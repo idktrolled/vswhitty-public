@@ -5,12 +5,12 @@ import sys.*;
 import sys.io.*;
 #end
 #if android
-import android.content.Context;
-import android.os.Environment;
-import android.Permissions;
-import android.Settings;
-import android.os.Build.VERSION;
-import android.os.Build.VERSION_CODES;
+import extension.androidtools.content.Context;
+import extension.androidtools.os.Environment;
+import extension.androidtools.Permissions;
+import extension.androidtools.Settings;
+import  extension.androidtools.os.Build.VERSION;
+import extension.androidtools.os.Build.VERSION_CODES;
 #end
 import lime.system.System as LimeSystem;
 import haxe.io.Path;
