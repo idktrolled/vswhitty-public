@@ -1,4 +1,4 @@
-## Adios whitty, and read the bee movie script. One last time.
+## Adios whitty, and read the bee movie script. One last time...
 
 lol
 
