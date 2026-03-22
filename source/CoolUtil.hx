@@ -1,8 +1,5 @@
 package;
 
-#if android
-import extension.androidtools.Tools;
-#end
 import lime.utils.Assets;
 
 using StringTools;
