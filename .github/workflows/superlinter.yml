@@ -9,7 +9,7 @@ jobs:
         with:
           haxe-version: 4.3.7
       - run: |
-          haxelib git lime https://github.com/kittycathy233/lime
+          haxelib git lime https://github.com/NovaFlare-Engine-haxelib/lime-8.3.0
           haxelib install openfl
           haxelib install flixel 4.11.0
           haxelib install flixel-tools
